@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validação e Formatação de Campos</title>
+    <link rel="preconnect" href="jss.js" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Validação e Formatação de Campos</h1>
+      <form class="formulario">
+        <label>NOME:</label>
+        <input type="text" class="nameClient" placeholder="" />
+        <label>E-MAIL:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="example@example.com"
+          required
+        />
+        <label>CPF:</label>
+        <input
+          type="text"
+          id="campo_cpf"
+          placeholder="xxx.xxx.xxx.xx"
+          required
+        />
+        <label>DATA DE NASCIMENTO:</label>
+        <input type="date" id="campo_data" />
+        <label>Celular:</label>
+        <input
+          type="text"
+          id="campo_celular"
+          placeholder="(xx) xxxx-xxxx"
+          maxlength="11"
+          required
+        />
+        <label>TELEFONE FIXO:</label>
+        <input
+          type="text"
+          id="campo_fixo"
+          placeholder="(xx) xxx-xxx"
+          maxlength="10"
+        />
+        <label>OBSERVAÇÃO:</label>
+        <textarea
+          type="text"
+          id="campo_observacao"
+          placeholder="Limite de 100 caracteres"
+          maxlength="100"
+        ></textarea>
+        <div id="botao">
+          <input type="submit" name="botao" value="ENVIAR" class="botaoEnviar" />
+       </div>
+      </form>
+    </section>
+  </body>
+</html>

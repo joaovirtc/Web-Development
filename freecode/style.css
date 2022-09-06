@@ -1,0 +1,45 @@
+body{
+    background-color: #2a2a2a;
+}
+
+.searchbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #c4c4c438;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+  .searchbox:hover > input {
+      width: 200px;
+      padding: 0 0px;
+     
+  }
+  
+  input {
+      width:0;
+      border: none;
+      outline: none;
+      padding: 0;
+      background: none;
+      font-size: 1.1rem;
+      transition: 0.5s ease;
+      line-height: 40px;
+      color: #fff;
+  }
+   
+  .icon img{
+      color: #fff;
+      float: right;
+      width: 40px;
+      font-size: 1.3rem;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      transition: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+
+  }

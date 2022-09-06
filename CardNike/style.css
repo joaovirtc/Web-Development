@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,600&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;;
+  font-size: 1rem;
+}
+ 
+h1, p {
+  margin: 0;
+}
+ 
+a {
+  text-decoration: none;
+}
+ 
+img {
+  max-width: 100%;
+  height: auto;
+}
+ 
+.containerCard {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+
+}
+ 
+.card1 {
+  width: 320px;
+  height: 400px;
+  background: linear-gradient( rgba(15,158,177,1) 37%, rgba(15,177,138,1) 62%);
+  border: 1px solid transparent ;
+  padding: 4rem 2rem 0;
+  color: #E9EAEC;
+  overflow-y: hidden;
+  transition: all 0.4s;
+  opacity: 90%;
+}
+
+
+.card1:hover{
+  
+    border :1px solid transparent ;
+    opacity: 100%;
+    
+}
+ 
+.card-img1 {
+  position: absolute;
+  width: 260px;
+  
+}
+ 
+.card-data1 {
+  transform: translateY(13.2rem);
+  text-align: center;
+}
+ 
+.card-title1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: .5rem;
+}
+ 
+.card-preco1 {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: #fff;
+}
+ 
+.card-description1 {
+  font-size: .875rem;
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+}
+ 
+.card-button1 {
+  display: block;
+  width: max-content;
+  padding: 1.125rem 2rem;
+  background-color: transparent;
+  color: #000;
+  border: 1px solid transparent;
+  font-weight: 600;
+  transition: 0.4s;
+  opacity: 0;
+}
+ 
+.card-button1:hover{
+    border: 1px solid #000;
+}
+
+
+.card-img1,
+.card-data1,
+.card-title1,
+.card-preci1,
+.card-description1 {
+  transition: .5s;
+}
+.card1:hover .card-img1 {
+  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+ 
+.card1:hover .card-data1 {
+  transform: translateY(4.8rem);
+}
+ 
+.card1:hover .card-title1 {
+    transform: translateX(0rem);
+    margin-bottom: 5px;;
+}
+ 
+.card1:hover .card-preco1 {
+  transform: translateX(0rem);
+}
+ 
+.card1:hover .card-description1,
+.card1:hover .card-button1 {
+    margin: 10px 35px;
+  transition-delay: .1s;
+  opacity: 1;
+}
+
+
+/*-------------- CARD 2 -----------------*/
+
+.container2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+   
+  .card2 {
+    width: 320px;
+  height: 400px;
+  background: linear-gradient( rgba(15,158,177,1) 37%, rgba(15,177,138,1) 62%);
+  border: 1px solid transparent ;
+  padding: 4rem 2rem 0;
+  color: #E9EAEC;
+  overflow-y: hidden;
+  transition: all 0.4s;
+  opacity: 90%;
+  }
+
+  .card2:hover{
+    
+    border :1px solid transparent ;
+    opacity: 100%;
+    
+}
+
+  .card-img2 {
+    position: absolute;
+    width: 260px;
+
+  }
+   
+  .card-data2 {
+    transform: translateY(13.2rem);
+    text-align: center;
+  }
+   
+  .card-title2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: .5rem;
+  }
+   
+  .card-preco2 {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #fff;
+  }
+   
+  .card-description2 {
+    font-size: .875rem;
+    text-align: initial;
+    margin-bottom: 1.25rem;
+    opacity: 0;
+  }
+   
+  .card-button2 {
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: 0.4s;
+    opacity: 0;
+  }
+   
+  .card-button2:hover{
+      border: 1px solid #000;
+  }
+  
+  
+  .card-img2,
+  .card-data2,
+  .card-title2,
+  .card-preci2,
+  .card-description2 {
+    transition: .5s;
+  }
+  .card2:hover .card-img2 {
+    transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+  }
+   
+  .card2:hover .card-data2 {
+    transform: translateY(4.8rem);
+  }
+   
+  .card2:hover .card-title2 {
+    transform: translateX(0rem);
+    margin-bottom: 5px;
+  }
+   
+  .card2:hover .card-preci2 {
+    transform: translateX(-6.8rem);
+  }
+   
+  .card2:hover .card-description2,
+  .card2:hover .card-button2 {
+    margin: 10px 35px;
+    transition-delay: .1s;
+    opacity: 1;
+  }
+  
+
+  /*----------------CARD 3 -------------*/
+.container3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+   
+  .card3 {
+    width: 320px;
+    height: 400px;
+    background: linear-gradient( rgba(15,158,177,1) 37%, rgba(15,177,138,1) 62%);
+    border: 1px solid transparent ;
+    padding: 4rem 2rem 0;
+    color: #E9EAEC;
+    overflow-y: hidden;
+    transition: all 0.4s;
+    opacity: 90%;
+    
+  }
+
+  .card3:hover{
+    border :1px solid transparent ;
+    opacity: 100%;
+    
+}
+   
+  .card-img3 {
+    position: absolute;
+    width: 260px;
+    
+  }
+   
+  .card-data3 {
+    transform: translateY(13.2rem);
+    text-align: center;
+  }
+   
+  .card-title3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: .5rem;
+  }
+   
+  .card-preco3 {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #fff;
+  }
+   
+  .card-description3 {
+    font-size: .875rem;
+    text-align: initial;
+    margin-bottom: 1.25rem;
+    opacity: 0;
+  }
+   
+  .card-button3 {
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: 0.4s;
+    opacity: 0;
+  }
+   
+  .card-button3:hover{
+      border: 1px solid #000;
+  }
+  
+  
+  .card-img3,
+  .card-data3,
+  .card-title3,
+  .card-preci3,
+  .card-description3 {
+    transition: .5s;
+  }
+  .card3:hover .card-img3 {
+    transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+  }
+   
+  .card3:hover .card-data3 {
+    transform: translateY(4.8rem);
+  }
+   
+  .card3:hover .card-title3 {
+    transform: translateX(0rem);
+    margin-bottom: 5px;
+  }
+   
+  .card3:hover .card-preci3 {
+    transform: translateX(-6.8rem);
+  }
+   
+  .card3:hover .card-description3,
+  .card3:hover .card-button3 {
+    margin: 10px 35px;
+    transition-delay: .1s;
+    opacity: 1;
+  }
+  

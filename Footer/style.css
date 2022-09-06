@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500;1,600;1,800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+background: #eef8ff;
+}
+
+footer{
+    width: 100vw;
+    position: absolute;
+    bottom:0;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 0 15px;
+    border-top-left-radius:125px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 5px;
+}
+
+
+.logo img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.email{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0 ;
+}
+
+.email-hype{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0 ;
+    cursor: pointer;
+    color: #009CDF;
+}
+
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form input {
+    width: 90%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    margin: 20px auto;
+}
+
+.copyrigth{
+    text-align: center;
+}
+
+form .mail{
+ width: 30px;
+ color: #fff;
+ margin: 0px 10px 0px 0px;
+} 
+
+.social-icons{
+    
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 30px;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <main>
+            <section class="container">
+                <div classe="produto" onclick = "showHide('#produto1')">
+                     <h1>
+                         Căndida
+                     </h1>
+                    <div class = "descricao-produto" id= "produto1">
+                         <p>
+                               OLoren Ipsunéum texto nodelo da indústria tipográficaede impressão.OLorem Ipsun tem vindo
+                             aserotexto padrão usado por estas indústrias desdeoano de 1500, quando uma nisturou os
+                             caracteres de um texto para criar um espécine de livro. Este texto não só sobreviveu5séculos,
+                             nas tanbémosalto paraatipografla electrónica, mantendo-se essencialnente inalterada. Fol
+                             popularizada nos anos 6e conadisponibilização das folhas de Letraset, que continhan passagens
+                             con Lorem Ipsum,emais recentemente com os programas de publicação comooAldus PageMaker que
+                             incluen versdes do Loren Ipsum.
+                         </p>
+                          </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            function showHide (id){
+                let conteudo = document.querySelector("id");
+                conteudo.classList.toggle('ativo')
+            }
+        </script>
+    
+</body>
+</html>
